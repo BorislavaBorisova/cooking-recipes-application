@@ -1,0 +1,26 @@
+{
+  "name": "cooking-recipes-api",
+  "version": "1.0.0",
+  "description": "Backend to the cooking recipes website.Express, mongodb.",
+  "main": "04-React.js",
+  "scripts": {
+    "start": "nodemon -w ./ ./server.js localhost 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mongodb"
+  ],
+  "author": "Borislava Borisova",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "indicative": "^7.4.4",
+    "mongo": "^0.1.0"
+  },
+  "devDependencies": {
+    "livereload": "^0.9.1",
+    "nodemon": "^2.0.4"
+  }
+}
